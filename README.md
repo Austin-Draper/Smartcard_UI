@@ -1,12 +1,3 @@
-TODO
-x1. Explain what this project does
-
-2. Use pictures 1 paragraph at a time for all possible outcomes during runtime
-
-x3. Willing to upload MSI file upon request
-
-
-
 # Smartcard_UI
 This is the most up to date WORKING version of the Smartcard_UI application. 
 I am willing to upload an MSI file upon request. 
