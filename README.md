@@ -13,7 +13,7 @@ I am willing to upload an MSI file upon request.
 This is a program utilizing MFC, C++, and SQL with QLM as a third party licensing software and MSI as the installer. 
 The only hardware used is an HID Omnikey card reader and a set of smart cards. 
 Tested smart cards include: PIV, PIV-I, CaC, DoD, TWIC, and DHS. 
-Smartcard_UI was made to make extracting data off government smart cards a simple process. 
+Smartcard_UI was made to make extracting data off of government smart cards a simple process. 
 Smartcard_UI gets your cards FASC-N number and parses it into 10 individual codes which include: Person Identifier, Credential Issue Level, Organization Category, and more. 
 After extracting all this information and displaying it to the user, that data can be submitted to a database for future use. 
 ##
@@ -41,7 +41,9 @@ As long as everything looks good, press the "Submit" button to upload all this i
 
 ![](AppPictures/FilledHome.png)
 ##
-Since this program is using a local SQL server, this program will not run unless you look through the source code and build your own server (or alter the code to fit your own server).
+If the information is successfully uploaded to the database, you will be shown that it was successful.
+If the information failed to upload, you will be shown that it failed somehow. 
+Since this program is using a local SQL server, the information will fail to upload to a database unless you look through the source code and build your own server (or alter the code to fit your own server).
 
 ![](AppPictures/Success.png)
 ##
